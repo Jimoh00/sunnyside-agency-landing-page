@@ -203,6 +203,10 @@ nav .nav_cta:hover {
     color: var(--cyan-graphic-text);
 }
 
+.mobile_img {
+    
+}
+
 /* testimonials */
 .section_title {
     text-transform: uppercase;
@@ -355,6 +359,11 @@ nav .nav_cta:hover {
         cursor: pointer;
     }
 
+    /* hero section */
+    .hero_section {
+        background: url(images/mobile/image-header.jpg) top/cover no-repeat;
+    }
+
     .container {
         grid-template-columns: 1fr;
     }
@@ -390,17 +399,24 @@ nav .nav_cta:hover {
         width: 100%;
     }
 
+    .desktop_img {
+        display: none;
+    }
+
+    .mobile-img{
+        display: block;
+    }
+
     .photography {
         margin-top: -14.59rem;
     }
 
     .overlay_text {
-        margin-top: 2rem;
-        padding-bottom: 1rem;
+        padding-bottom: 4rem;
     }
 
     .overlay_text h2 {
-        padding-bottom: 1rem;
+        padding-bottom: 2rem;
     }
 
     /* testimonials */
